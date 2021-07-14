@@ -1,0 +1,11 @@
+{
+  "name": "nc-doc-md-theme",
+  "short_name": "nc-doc-md-theme",
+  "description": "> TODO: description",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3282ff",
+  "lang": "en"
+}
