@@ -4,8 +4,8 @@
   <ShortName>NocoDB</ShortName>
   <Description>Search NocoDB</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://nocodb.com/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://nocodb.com/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://nocodb.com/opensearch.xml" />
-  <moz:SearchForm>https://nocodb.com/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://docs.nocodb.com/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://docs.nocodb.com/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://docs.nocodb.com/opensearch.xml" />
+  <moz:SearchForm>https://docs.nocodb.com/</moz:SearchForm>
 </OpenSearchDescription>
