@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknoco_docs=self.webpackChunknoco_docs||[]).push([[9423],{46839:e=>{e.exports=JSON.parse('{"title":"Bases","slug":"/category/bases","permalink":"/category/bases","navigation":{"previous":{"title":"Actions on workspace","permalink":"/workspaces/actions-on-workspace"},"next":{"title":"Base overview","permalink":"/bases/base-overview"}}}')}}]);

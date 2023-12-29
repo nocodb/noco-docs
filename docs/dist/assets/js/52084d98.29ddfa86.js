@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknoco_docs=self.webpackChunknoco_docs||[]).push([[6066],{57190:e=>{e.exports=JSON.parse('{"title":"Numerical","slug":"/category/numerical","permalink":"/category/numerical","navigation":{"previous":{"title":"URL","permalink":"/fields/field-types/text-based/url"},"next":{"title":"Number","permalink":"/fields/field-types/numerical/number"}}}')}}]);

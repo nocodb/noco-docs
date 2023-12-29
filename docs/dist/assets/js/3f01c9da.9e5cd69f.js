@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknoco_docs=self.webpackChunknoco_docs||[]).push([[1522],{31501:o=>{o.exports=JSON.parse('{"title":"Webhook","slug":"/category/webhook","permalink":"/category/webhook","navigation":{"previous":{"title":"Automation","permalink":"/category/automation"},"next":{"title":"Webhook overview","permalink":"/automation/webhook/webhook-overview"}}}')}}]);
