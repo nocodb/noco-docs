@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknoco_docs=self.webpackChunknoco_docs||[]).push([[381],{78440:e=>{e.exports=JSON.parse('{"title":"Views","slug":"/category/views","permalink":"/category/views","navigation":{"previous":{"title":"Actions on record","permalink":"/records/actions-on-record"},"next":{"title":"View overview","permalink":"/views/views-overview"}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknoco_docs=self.webpackChunknoco_docs||[]).push([[5342],{62795:e=>{e.exports=JSON.parse('{"title":"View types","slug":"/category/view-types","permalink":"/category/view-types","navigation":{"previous":{"title":"Share view","permalink":"/views/share-view"},"next":{"title":"Grid","permalink":"/views/view-types/grid"}}}')}}]);

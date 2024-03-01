@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknoco_docs=self.webpackChunknoco_docs||[]).push([[3543],{73299:e=>{e.exports=JSON.parse('{"title":"Tables","slug":"/category/tables","permalink":"/category/tables","navigation":{"previous":{"title":"Actions on base","permalink":"/bases/actions-on-base"},"next":{"title":"Table overview","permalink":"/tables/table-overview"}}}')}}]);

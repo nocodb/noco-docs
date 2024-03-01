@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknoco_docs=self.webpackChunknoco_docs||[]).push([[7603],{5898:e=>{e.exports=JSON.parse('{"title":"Formula","slug":"/category/formula","permalink":"/category/formula","navigation":{"previous":{"title":"JSON","permalink":"/fields/field-types/custom-types/json"},"next":{"title":"Formula","permalink":"/fields/field-types/formula/formula"}}}')}}]);

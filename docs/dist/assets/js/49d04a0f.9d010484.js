@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknoco_docs=self.webpackChunknoco_docs||[]).push([[4974],{70494:o=>{o.exports=JSON.parse('{"title":"Automation","slug":"/category/automation","permalink":"/category/automation","navigation":{"previous":{"title":"In Open Source","permalink":"/collaboration/oss-specific-details"},"next":{"title":"Webhook","permalink":"/category/webhook"}}}')}}]);
