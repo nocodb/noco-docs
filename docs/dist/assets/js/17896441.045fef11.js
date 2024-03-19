@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknoco_docs=self.webpackChunknoco_docs||[]).push([[8401],{51807:(s,c,e)=>{e.d(c,{A:()=>b});var o=e(9982),a=e(49489),n=e(7227),A=e(13012);const b={...o.A,Tabs:a.A,TabItem:n.A,Image:A.A}}}]);
