@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.1.1">
 <title data-rh="true">Links | NocoDB</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://docs.nocodb.com/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://docs.nocodb.com/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://docs.nocodb.com/fields/field-types/links-based/links"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Links | NocoDB"><meta data-rh="true" name="description" content="This article explains how to create &amp; work with a Links field."><meta data-rh="true" property="og:description" content="This article explains how to create &amp; work with a Links field."><meta data-rh="true" name="keywords" content="Fields,Field types,Links based types,Links,Create links field"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.nocodb.com/fields/field-types/links-based/links"><link data-rh="true" rel="alternate" href="https://docs.nocodb.com/fields/field-types/links-based/links" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.nocodb.com/fields/field-types/links-based/links" hreflang="x-default"><link rel="search" type="application/opensearchdescription+xml" title="NocoDB" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.cb5f2b42.css">
-<script src="/assets/js/runtime~main.bb1a3751.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.4b559c7a.js" defer="defer"></script>
 <script src="/assets/js/main.d3f0a383.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -48,18 +48,17 @@ NocoDB supports following types of relations:</p>
 <p><img decoding="async" loading="lazy" alt="image" src="/assets/images/links-cell-display-11ef22c835684c116f159598247e9b5d.png" width="1269" height="512" class="img_ev3q"></p>
 <p>Clicking on the link-text will open a <code>Linked Records</code> modal with the list of links &amp; associated additional information.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="list-linked-records">List linked records<a href="#list-linked-records" class="hash-link" aria-label="Direct link to List linked records" title="Direct link to List linked records">​</a></h3>
-<p><img decoding="async" loading="lazy" alt="image" src="/assets/images/linked-record-modal-3e57fdb38dfa9be609959b9843ec65b4.png" width="1321" height="868" class="img_ev3q"></p>
-<p>A brief note about the modal components:</p>
+<p><img decoding="async" loading="lazy" alt="image" src="/assets/images/linked-record-modal-e622c1f2156d50ff540c0e46356b9bd0.png" width="2306" height="1556" class="img_ev3q"></p>
+<p>List of linked records will appear as a dropdown containing linked records as cards. A brief note about the modal components:</p>
 <ol>
-<li>This modal is displaying linked records for <code>PENELOPE</code></li>
-<li>Icon represents <code>Many-to-Many</code> relation</li>
-<li>Linked records belong to <code>Film</code> table</li>
 <li>Search bar, to narrow down the list of linked records displayed</li>
+<li>Icon represents <code>Many-to-Many</code> relation. The count indicates the number of linked records</li>
 <li>List (cards) of linked records</li>
+<li>Click on the <code>-</code> icon to unlink the record</li>
 <li>To view additional information (expanded record), hover on the card &amp; click on the <code>&lt;&gt;</code> icon</li>
-<li>Indicates total records linked</li>
+<li>Click on <code>+ New record</code> button to add a new record &amp; link it to the current record</li>
+<li>Click on <code>Link more records</code> to link an existing record <a href="#link-new-records">Read more</a></li>
 <li>Pagination bar</li>
-<li>Click on <code>+ Link more Records</code> button to add new links : <a href="#link-new-records">Read more</a></li>
 </ol>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="link-new-records">Link new records<a href="#link-new-records" class="hash-link" aria-label="Direct link to Link new records" title="Direct link to Link new records">​</a></h3>
 <p>Modal to add new links can be opened by</p>
@@ -67,21 +66,20 @@ NocoDB supports following types of relations:</p>
 <li>Clicking on <code>+ Link more Records</code> button in the <code>Linked Records</code> modal</li>
 <li>Clicking on the <code>+</code> icon in the cell (appears on clicking on the cell)</li>
 </ul>
-<p><img decoding="async" loading="lazy" alt="image" src="/assets/images/add-link-modal-fde55380d59bdd5d597bd38e3330dbbd.png" width="791" height="655" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="image" src="/assets/images/add-link-modal-a85f34e10265891a1e63ef46c37a216f.png" width="2306" height="1556" class="img_ev3q"></p>
 <p>A brief note about the modal components:</p>
 <ol>
-<li>Links being created are for <code>PENELOPE</code></li>
-<li>Icon represents <code>Many-to-Many</code> relation</li>
-<li>Linked records belong to <code>Film</code> table</li>
 <li>Search bar, to narrow down the list of records displayed</li>
-<li>Linked record card is displayed in blue color</li>
-<li>Records available for link are displayed in white color; use expand icon on the cord to view additional information</li>
-<li>Indicates total records linked (including the ones being linked)</li>
+<li>Icon represents <code>Many-to-Many</code> relation. The count indicates the number of linked records</li>
+<li>List (cards) of records available for linking</li>
+<li>Click on the <code>+</code> icon to link the record</li>
+<li>To view additional information (expanded record) before linking, hover on the card &amp; click on the <code>&lt;&gt;</code> icon</li>
+<li>Click on <code>+ New record</code> button to add a new record &amp; link it to the current record</li>
 <li>Pagination bar</li>
 </ol>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>Multiple records can be linked at once.</p></div></div>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="unlink-records">Unlink records<a href="#unlink-records" class="hash-link" aria-label="Direct link to Unlink records" title="Direct link to Unlink records">​</a></h3>
-<p>To unlink a record, open the <code>Linked Records</code> modal &amp; click on the card of the record to be unlinked.</p>
+<p>To unlink a record, open the <code>Linked Records</code> modal &amp; click on the <code>-</code> icon on the card of the record to be unlinked.</p>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>Multiple records can be unlinked at once.</p></div></div>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="related-fields">Related fields<a href="#related-fields" class="hash-link" aria-label="Direct link to Related fields" title="Direct link to Related fields">​</a></h3>
 <ul>
