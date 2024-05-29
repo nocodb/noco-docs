@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.1.1">
 <title data-rh="true">Attachment | NocoDB</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://docs.nocodb.com/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://docs.nocodb.com/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://docs.nocodb.com/fields/field-types/custom-types/attachment"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Attachment | NocoDB"><meta data-rh="true" name="description" content="This article explains how to create &amp; work with an Attachment field."><meta data-rh="true" property="og:description" content="This article explains how to create &amp; work with an Attachment field."><meta data-rh="true" name="keywords" content="Fields,Field types,Custom types,Attachment,Create attachment field"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.nocodb.com/fields/field-types/custom-types/attachment"><link data-rh="true" rel="alternate" href="https://docs.nocodb.com/fields/field-types/custom-types/attachment" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.nocodb.com/fields/field-types/custom-types/attachment" hreflang="x-default"><link rel="search" type="application/opensearchdescription+xml" title="NocoDB" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.cb5f2b42.css">
-<script src="/assets/js/runtime~main.f6580c81.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.173b1683.js" defer="defer"></script>
 <script src="/assets/js/main.d3f0a383.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -58,13 +58,14 @@
 </ul>
 <div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Rename file only renames the file in NocoDB display (expand record &amp; tool tip on hover). It does not rename the file in the storage.</p></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="environment-variables">Environment variables<a href="#environment-variables" class="hash-link" aria-label="Direct link to Environment variables" title="Direct link to Environment variables">​</a></h2>
-<p>In self-hosted version, you can configure the following environment variables to customize the behavior of <code>Attachment</code> field.</p>
+<p>In self-hosted version, you can configure the following environment variables to customize the behavior of <code>Attachment</code> field:</p>
 <ul>
-<li>NC_ATTACHMENT_FIELD_SIZE: Max size of attachment file in bytes. Default: 20MB</li>
-<li>NC_SECURE_ATTACHMENTS: Allow accessing attachments only through pre-signed URLs. Default: false</li>
-<li>NC_ATTACHMENT_EXPIRE_SECONDS: Expiry time for pre-signed URLs. Default: 7200</li>
+<li><code>NC_ATTACHMENT_FIELD_SIZE</code>: Maximum size of attachment files in bytes. Default: <code>20971520</code> (20 MiB)</li>
+<li><code>NC_MAX_ATTACHMENTS_ALLOWED</code>: Maximum number of attachments per cell. Default: <code>10</code></li>
+<li><code>NC_SECURE_ATTACHMENTS</code>: Allow accessing attachments only through pre-signed URLs. Default: <code>false</code></li>
+<li><code>NC_ATTACHMENT_EXPIRE_SECONDS</code>: Expiry time for pre-signed URLs. Default: <code>7200</code> (2 hours)</li>
 </ul>
-<p>Find more about environment variables <a href="/getting-started/self-hosted/environment-variables">here</a></p>
+<p>All supported environment variables are described <a href="/getting-started/self-hosted/environment-variables">here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="related-articles">Related articles<a href="#related-articles" class="hash-link" aria-label="Direct link to Related articles" title="Direct link to Related articles">​</a></h2>
 <ul>
 <li><a href="/views/view-types/form#attaching-a-file-from-mobile-device">Attaching a file from mobile</a></li>
